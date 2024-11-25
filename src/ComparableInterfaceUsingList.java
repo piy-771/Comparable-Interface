@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -30,7 +29,7 @@ class Student implements  Comparable<Student>{
         return "{ Student Name: " + getName()+" Roll Number " + getRollNumber() + "}";
     }
 }
-public class ComparableInterfaceDemo {
+public class ComparableInterfaceUsingList {
     public static void main(String[] args) {
         List list = new ArrayList();
         list.add(new Student(10,"Student1"));
